@@ -39,13 +39,14 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 1. Faça o clone do repositório que será criado a partir deste modelo.
 
     ```bash
-    git clone ENDERECO_DO_REPOSITORIO
+    git clone git@github.com:Erickdf1991/projeto_teste.git
     ```
 
 2. Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
 
+Exemplo Conda:
 ```bash
-conda env export > ambiente.yml
+conda env create -f ambiente.yml -- name estatistica
 ```
 
 ## Um pouco mais sobre a base
